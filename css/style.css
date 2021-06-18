@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+
+.blu {
+    color: blue;
+}
+
+.bg-blu {
+    background-color: blue;
+}
+
+
+
+/* header */
+
+#select-box {
+    height: 100px;
+}
+
+#select-box span {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
