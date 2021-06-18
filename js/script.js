@@ -97,13 +97,20 @@ const icons = [
     },
 ];
 
-icons.forEach(obj => {
-    document.getElementById('icons').innerHTML += `
-    <div class="col g-3">
-        <div class="box-obj text-center ">
-            <i class="${obj.family} ${obj.prefix}${obj.name}"></i>
-            <h5 class="upper">${obj.name}</h5>
-        </div>
-    </div>`
-});
+stampa (icons)
+
+
+// funzioni
+function stampa (array) {
+    array.forEach(obj => {
+        document.getElementById('icons').innerHTML += `
+        <div class="col g-3">
+            <div class="box-obj text-center ">
+                <i class="${obj.family} ${obj.prefix}${obj.name}"></i>
+                <h5 class="upper">${obj.name}</h5>
+            </div>
+        </div>`
+    });
+
+};
 
